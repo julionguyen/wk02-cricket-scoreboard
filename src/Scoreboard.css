@@ -1,0 +1,19 @@
+.main_scoreboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));    
+    gap: 6px;
+    row-gap: 6px;    
+    border: solid 1px;
+    border-color: aqua;
+    margin: auto;
+}
+.scoreboard {
+    display: grid;
+    grid-template-columns: max-content;
+    grid-auto-flow: column;
+    width:max-content;
+    padding: 5px;
+    margin: 50px auto;
+    border: solid 1px;
+    border-color:cadetblue;
+}

@@ -1,0 +1,33 @@
+button {
+    padding: 5px 5px 5px 5px;
+    margin: 5px;    
+}
+.team_score {
+    display: grid;
+    grid-template-columns: minmax(160px, 1fr);
+    padding: 5px;    
+}
+.team_name {
+    color:cadetblue;
+    font-weight: bold;
+}
+.num_of_runs {
+    display: flex;    
+    padding: 5px 5px 5px 5px;    
+}
+.num_of_wickets {
+    display: flex;
+    padding: 5px 5px 5px 5px;        
+}
+.score_left {
+    margin-right: auto;
+    color: black;
+}
+.score_right {
+    margin-left: auto;
+    color: blue;
+}
+.change_team_name {
+    color: green;
+    background-color: lightyellow;
+}
